@@ -1,0 +1,70 @@
+body{
+    background-image:url(back.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: 'Baloo Tammudu 2', cursive;
+    
+}
+input{
+    width: 300px;
+    padding: 15px;
+    margin-top: 10px;
+    border: 2px solid #16b192;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    outline: none;
+    border-radius: 8px;
+}
+input::placeholder{
+    color:#000;
+}
+form{
+    width:700px;
+    margin:50px auto;
+    padding: 30px;
+    background-color:#fff;
+    text-align:center;
+    border-radius:8px;
+    background-color:rgb(43, 42, 42);
+}
+h1{
+    margin:0;
+    margin-bottom: 20px;
+    color: #1ABC9C;
+}
+legend{
+    text-align: center;
+    color: #1ABC9C;
+}
+fieldset{
+    border-color: #1ABC9C;
+
+}
+input,select,textarea{
+    width: 300px;
+    padding: 15px;
+    margin-top: 10px;
+    border: 2px solid #1abc9c;
+    background-color: #fff;
+    color: #000;
+    outline: none;
+    border-radius: 8px;
+}
+.radio{
+    display:inline-block;
+    color:black;
+
+}
+input[type=radio],input[type=checkbox]{
+    width: 13px;
+}
+input[type=submit]{
+    color: #fff;
+    background-color: #16a085;
+}
+input[type=submit]:hover{
+    color: #16a085;
+background-color:#fff;
+cursor:pointer;
+}
+
